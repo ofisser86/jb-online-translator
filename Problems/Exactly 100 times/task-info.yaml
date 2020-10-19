@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    n = 12345
+    # put your python code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6716
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6716">JetBrains
+    Academy</a></html>
+  time: Mon, 19 Oct 2020 13:10:51 UTC
+record: -1
