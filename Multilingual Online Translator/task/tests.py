@@ -14,24 +14,13 @@ CheckResult.wrong = lambda feedback: CheckResult(False, feedback)
 
 class TranslatorTest(StageTest):
     def generate(self):
-        return [TestCase(stdin='fr\nhello\n'),]
+        return [TestCase(stdin='3\n4\nhello')]
 
     def check(self, reply, attach):
-        if 'bonjour' not in reply or 'examples' not in reply.lower():
-            return CheckResult.wrong("Looks like your program didn't print translations, examples or titles for them.\n"
-                                     "Remember that your program should output lines \"... Translations\" and \"... Examples\",\n"
-                                     "where ... is the name of the language.")
-        reply = reply.lower().strip()
-        bonjour_index = reply.index('bonjour')
-        example_index = reply[bonjour_index:].index('examples') + bonjour_index
-        translations_slice = reply[bonjour_index:example_index]
-        if len(translations_slice.split('\n')) < 4:
-            return CheckResult.wrong("Seems like your program did not place each translation on a new line.")
-        if ("'" in translations_slice
-            or ',' in translations_slice):
-            return CheckResult.wrong("Seems like you didn't remove commas and quotation marks from translations.")
-        if len(reply[example_index:].split('\n')) < 3:
-            return CheckResult.wrong("Seems like your program did not place each example on a new line.")
+        reply = reply.lower()
+        if not ('arabic' in reply and 'turkish' in reply
+                and 'spanish translations' in reply and 'hola' in reply):
+            return CheckResult.wrong('Try to print out all the languages that your translator can translate.')
 
         return CheckResult.correct()
 
