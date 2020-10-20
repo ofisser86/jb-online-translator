@@ -6,7 +6,7 @@ English into French:\n"""
 
 into_lang = input(invitation)
 word = input('Type the word you want to translate:\n')
-
+lang = {'fr': 'French', 'en': 'English'}
 print(f'You chose "{into_lang}" as the language to translate "{word}" to.')
 
 
@@ -23,6 +23,22 @@ raw_page = res.content
 soup = BeautifulSoup(raw_page, "html.parser")
 
 print(res.status_code, 'OK')
-print(soup.find('div', {'id': 'translations-content'}).text.split(), '\nTranslations')
-res = soup.find('section', {'id': 'examples-content'}).text.split('\n')
-print([i.strip() for i in res if i])
+print('\nContext examples:\n')
+
+translations_words = soup.find('div', {'id': 'translations-content'}).text.split()
+print(f"{lang[into_lang]} Translations:")
+for i in translations_words[:5]:
+    print(i)
+
+print()
+
+print(f"{lang[into_lang]} Examples:")
+
+raw_translate_examples = soup.find('section', {'id': 'examples-content'}).text.split('\n')
+translate_examples = [i.strip() for i in raw_translate_examples if i][:10]
+
+for i in range(len(translate_examples)):
+    if i % 2 == 0:
+        print(translate_examples[i] + ':')
+    else:
+        print(translate_examples[i] + '\n')
