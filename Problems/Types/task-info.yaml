@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # the variable "args" is already defined
+    my_list = []  # your code here
+
+    print(my_list)
+
+    # further code of the script "process_four_numbers.py"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7988
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7988">JetBrains
+    Academy</a></html>
+  time: Wed, 21 Oct 2020 13:47:21 UTC
+record: -1

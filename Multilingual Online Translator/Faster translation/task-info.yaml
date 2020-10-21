@@ -73,6 +73,112 @@ files:
     if __name__ == '__main__':
         TranslatorTest('translator.translator').run_tests()
   learner_created: false
+- name: hello.txt
+  visible: true
+  text: |+
+    Arabic Translations:
+    مرحبا
+
+    Arabic examples:
+    Well, hello, old-school racist.
+    حسنا، مرحبا يا تلميذة المدرسة العنصريّة - الأمر يسري بدمهم!
+
+    German Translations:
+    hallo
+
+    German examples:
+    Finally got a personalized hello from Earl.
+    Ich habe endlich ein personifiziertes hallo von Earl bekommen.
+
+    Spanish Translations:
+    hola
+
+    Spanish examples:
+    Well, hello, Miss Anchor-liar.
+    Bien, hola, señorita presentadora de mentiras.
+
+    French Translations:
+    bonjour
+
+    French examples:
+    Say goodbye to anti-aliasing and hello to naturally crisp graphics.
+    Dites adieu à l'anti-crénelage et bonjour à des graphismes naturellement nets.
+
+    Hebrew Translations:
+    שלום
+
+    Hebrew examples:
+    How come they never say hello?
+    איך זה שהן אף פעם לא אומרות שלום.
+
+    Japanese Translations:
+    こんにちは
+
+    Japanese examples:
+    The little boy said hello to me.
+    小さな男の子が私にこんにちはと言った。
+
+    Dutch Translations:
+    dag
+
+    Dutch examples:
+    Which in Hawaiian means hello and goodbye.
+    Dat betekent hallo en tot ziens in het Hawaiiaans.
+
+    Polish Translations:
+    cześć
+
+    Polish examples:
+    You had me at "hello".
+    Wystarczyło mi twoje "cześć".
+
+    Portuguese Translations:
+    olá
+
+    Portuguese examples:
+    That was my last kiss hello.
+    Pois eu garanto que aquele foi o meu último beijo de olá.
+
+    Romanian Translations:
+    salut
+
+    Romanian examples:
+    I came by to say hello.
+    Am avut o pauză de masă și am trecut să te salut.
+
+    Russian Translations:
+    привет
+
+    Russian examples:
+    Why, hello, there, Admiral.
+    А, Адмирал, привет, что здесь делаешь.
+
+    Turkish Translations:
+    selam
+
+    Turkish examples:
+    Say "hello" from Tito Spadola.
+    Tito Spadola'dan, "selam" söyleyeceğim.
+
+  learner_created: true
+- name: translator/hello.txt
+  visible: true
+  text: |+
+    Arabic Translations:
+    مرحبا
+
+    Arabic Example:
+    Well, hello, old-school racist.:
+    حسنا، مرحبا يا تلميذة المدرسة العنصريّة - الأمر يسري بدمهم!
+
+  learner_created: true
+- name: translator/__init__.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/99/stages/548/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/99/stages/548/implement">JetBrains
+    Academy</a>
+  time: Wed, 21 Oct 2020 15:24:14 UTC
 record: -1

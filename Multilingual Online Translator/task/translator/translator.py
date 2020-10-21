@@ -1,4 +1,5 @@
 import requests
+import sys
 from bs4 import BeautifulSoup
 
 
@@ -27,15 +28,18 @@ class Translator:
         self.context = None
 
     def menu(self):
-        print("Hello, you're welcome to the translator. Translator supports:")
-        for k, v in self.LANGUAGES.items():
-            print(k + '.', v)
+        # print("Hello, you're welcome to the translator. Translator supports:")
+        # for k, v in self.LANGUAGES.items():
+        #     print(k + '.', v)
 
         # Context include word to translate and language itself instead of language code
-        context = {'from_lang': self.LANGUAGES[input('Type the number of your language:\n')],
-                   'to_lang': self.LANGUAGES[input("Type the number of language you want to translate to or '0' to "
-                                                   "translate to all languages:\n")],
-                   'word': input('Type the word you want to translate:\n')}
+        # self.LANGUAGES[input('Type the number of your language:\n')
+        # self.LANGUAGES[input("Type the number of language you want to translate to or '0' to "
+        #                                                    "translate to all languages:\n")
+        # input('Type the word you want to translate:\n')
+        context = {'from_lang': sys.argv[1],
+                   'to_lang': sys.argv[2],
+                   'word': sys.argv[3]}
 
         self.context = context
         self.write_to_file()
@@ -56,7 +60,12 @@ class Translator:
         soup = BeautifulSoup(raw_page, "html.parser")
         self.clean_translations = soup.find('div', {'id': 'translations-content'}).text.split()
         raw_translate_examples = soup.find('section', {'id': 'examples-content'}).text.split('\n')
-        self.clean_examples = [i.strip() for i in raw_translate_examples if i][:10]
+        self.clean_examples = [i.strip() + '\n' for i in raw_translate_examples if i][:10]
+        for i in range(len(self.clean_examples)):
+            if i % 2 == 0:
+                self.clean_examples[i] = self.clean_examples[i].replace('\n', ':\n')
+            else:
+                self.clean_examples[i] = self.clean_examples[i].replace('\n', '\n\n')
         return None
 
     # Create file and write to it all scrapped data
@@ -65,14 +74,13 @@ class Translator:
         # "all" from LANGUAGE
         lang_list = [self.context['to_lang']]
         if self.context['to_lang'] == 'all':
-            lang_list = [lang for lang in self.LANGUAGES.values() if lang not in ['all', self.context['from_lang']]]
+            lang_list = [lang for lang in self.LANGUAGES.values() if lang.lower() not in ['all', self.context['from_lang']]]
         with open(f"{self.context['word']}.txt", 'w') as f:
             for language in lang_list:
                 self.context['to_lang'] = language
                 self.context_translate(context=self.context)
-                f.writelines(f"{language} Translations:" + "\n" + self.clean_translations[0] + "\n\n" +
-                             f"{language} examples:" + "\n" + self.clean_examples[0] +
-                             "\n" + self.clean_examples[1] + "\n\n")
+                f.writelines(f"{language.title()} Translations:" + "\n" + "\n".join(self.clean_translations[:5]) + "\n\n" +
+                             f"{language.capitalize()} examples:" + "\n" + "".join(self.clean_examples))
             f.close()
 
     # Print the result from file
