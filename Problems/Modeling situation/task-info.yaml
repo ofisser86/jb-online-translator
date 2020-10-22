@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6274
+status: Solved
+feedback:
+  message: |-
+    <html>You caught all the exceptions. Congratulations!
+
+    <br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6274">JetBrains Academy</a></html>
+  time: Thu, 22 Oct 2020 08:41:09 UTC
+record: -1

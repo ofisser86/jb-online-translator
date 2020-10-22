@@ -1,0 +1,24 @@
+<h2>Modeling situation</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Your program will have access to the <code class="language-python">exception_test()</code> function, which can throw exceptions.</p> 
+  <p>You need to write code that runs this function, then catches <code class="language-python">ArithmeticError</code>, <code class="language-python">AssertionError</code> , <code class="language-python">ZeroDivisionError</code> exceptions and prints the name of the caught exception.</p> 
+  <p>An example solution that you should send for review:</p> 
+  <pre><code class="language-python">try:
+    exception_test()
+except Exception:
+    print("Exception")
+except BaseException:
+    print("BaseException")</code></pre> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-558').style.display='inline'"> Hint </button> </p>
+  <div id="hint-558" style="display:none;">
+   Don't forget about the hierarchy of exceptions. The key to this task is to choose the correct order of except clauses.
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 2 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or in execution results because of missing context. Don't mind those; simply write your solution and click Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/6270">Show topic summary</a>

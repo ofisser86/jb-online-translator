@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    n = int(input())
+    denominator = int(input())
+
+    print(n // denominator)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7187
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7187">JetBrains
+    Academy</a></html>
+  time: Thu, 22 Oct 2020 08:33:51 UTC
+record: -1

@@ -47,6 +47,585 @@ files:
     if __name__ == '__main__':
         TranslatorTest('translator.translator').run_tests()
   learner_created: false
+- name: hello.txt
+  visible: true
+  text: |+
+    Arabic Translations:
+    مرحبا
+    أهلا
+    الو
+    هل
+    سلام
+
+    Arabic examples:
+    Well, hello, old-school racist.:
+    حسنا، مرحبا يا تلميذة المدرسة العنصريّة - الأمر يسري بدمهم!
+
+    margot, say hello to pavlov.:
+    (مارجوت)،قولي مرحبًا لـ (بافالوف).
+
+    hello hello i m so sorry to hear about vice president mallory:
+    أهلاً أنا آسفة لسماع نبأ وفاة نائب الرئيس
+
+    hello, and welcome to clark after dark.:
+    أهلاً، ومرحباً بكم في "كلارك بعد حلول الظلام"
+
+    Don't even say hello anymore.:
+    لم يعودوا يقولون مرحبًا حتى بعد الآن.
+
+    German Translations:
+    hallo
+    guten
+    Abend
+    guten
+    Morgen
+
+    German examples:
+    Finally got a personalized hello from Earl.:
+    Ich habe endlich ein personifiziertes hallo von Earl bekommen.
+
+    I wanted to... say hello.:
+    Ich war in der Gegend, ich wollte dich... dir hallo sagen.
+
+    Well, hello there again, ladies and gentlemen.:
+    Guten Abend, meine Damen und Herren.
+
+    You could start by calming down and saying hello.:
+    Beruhige dich und sag Guten Morgen.
+
+    Say goodbye to anti-aliasing and hello to naturally crisp graphics.:
+    Verabschiede Dich von Anti-Aliasing und sag Hallo zu natürlich gestochen scharfer Grafik.
+
+    Spanish Translations:
+    hola
+    buenos
+    días
+    qué
+    tal
+
+    Spanish examples:
+    Well, hello, Miss Anchor-liar.:
+    Bien, hola, señorita presentadora de mentiras.
+
+    I guess it's impossible to forget her. Yes, hello.:
+    Imagino que es imposible olvidarla... hola.
+
+    Yes, hello, Mr Teodoresco.:
+    Sí, buenos días, Sr. Teodoresco.
+
+    Dr. Juarez, hello again.:
+    Doctora Juárez, hola de nuevo.
+
+    And all I could say was hello.:
+    Y todo lo que supe decir fue hola.
+
+    French Translations:
+    bonjour
+    allô
+    ohé
+    coucou
+    salut
+
+    French examples:
+    Say goodbye to anti-aliasing and hello to naturally crisp graphics.:
+    Dites adieu à l'anti-crénelage et bonjour à des graphismes naturellement nets.
+
+    Goodbye England and hello the Netherlands...:
+    Au revoir l'Angleterre et bonjour les Pays-Bas...
+
+    Yes, hello. Jackson speaking.:
+    Oui, allô, Jackson à l'appareil.
+
+    And... hello... she's hallucinating dwarves.:
+    Et... allô... elle hallucine de nains.
+
+    And began appearing hello kitty games online.:
+    Et a commencé à apparaître bonjour Kitty jeux en ligne.
+
+    Hebrew Translations:
+    שלום
+    בוקר
+    טוב
+    הלו
+    היי
+
+    Hebrew examples:
+    How come they never say hello?:
+    איך זה שהן אף פעם לא אומרות שלום.
+
+    Say hello to our newest Greendalian,:
+    תגידו שלום, לגרינדלי החדש ביותר שלנו!
+
+    You mean, hello, Tic-Tac.:
+    אתה אומר, הלו, טיק טק.
+
+    Nine months later, hello! Out pops our Julie.:
+    "תשעה חודשים מאוחר יותר,"הלו הגיחה החוצה ג'ולי שלנו?.
+
+    Come and say hello to him.:
+    הנה החבר שלך בוא ואמור לו שלום.
+
+    Japanese Translations:
+    こんにちは
+    hello
+    ハロー
+    みなさん
+    皆さん
+
+    Japanese examples:
+    The little boy said hello to me.:
+    小さな男の子が私にこんにちはと言った。
+
+    To all aspiring pilots, hello!:
+    パイロットを目指しているみんな、こんにちは。
+
+    they both produce: hello world.:
+    すなわち、両方共、hello　worldを出力します。
+
+    The client and server exchange hello messages.:
+    クライアントとサーバがHelloメッセージを交換します。
+
+    The transmitting unit broadcasts the first hello packet.:
+    送信部は、第１のハローパケットをブロードキャスト送信する。
+
+    Dutch Translations:
+    dag
+    begroeting
+    hallo
+    gedag
+    hoi
+
+    Dutch examples:
+    Which in Hawaiian means hello and goodbye.:
+    Dat betekent hallo en tot ziens in het Hawaiiaans.
+
+    "Aloha." It means hello and goodbye.:
+    Aloha betekend hallo en tot ziens.
+
+    Well, hello, I'm Miranda.:
+    Wel, hallo, ik ben Miranda.
+
+    Well, hello there, sweetheart.:
+    Nou, hallo daar, lieveling.
+
+    Well, then, hello there, cadet Terry.:
+    In dat geval: Hallo, cadet Terry.
+
+    Polish Translations:
+    cześć
+    halo
+    powitanie
+    miło
+    witam
+
+    Polish examples:
+    You had me at "hello".:
+    Wystarczyło mi twoje "cześć".
+
+    I told him you'd stop in to say hello before the surgery.:
+    Powiedziałem jego, że zostaniesz by powiedzieć cześć wcześniej chirurgia.
+
+    You didn't even kiss me hello.:
+    Nawet mie nie pocałowałeś na powitanie.
+
+    We'll go in and say hello.:
+    Wejdziemy do środka i powiemy cześć.
+
+    Say hello to the fellas, Lilah.:
+    Powiedz "cześć" kolegom, Lilah.
+
+    Portuguese Translations:
+    olá
+    alô
+    bom
+    dia
+    abraço
+
+    Portuguese examples:
+    That was my last kiss hello.:
+    Pois eu garanto que aquele foi o meu último beijo de olá.
+
+    Say goodbye to civilization and hello to Second Chance.:
+    Digam adeus à civilização, e olá, à Segunda Oportunidade.
+
+    Continue transmitting universal peace and hello in all known languages.:
+    Continue a transmitir paz universal e alô em todos os idiomas conhecidos.
+
+    Well, hello, freedom fighters.:
+    Bem, alô, guerreiros da liberdade.
+
+    Good morning Gerrit, hello Hilde...:
+    Bom dia, Gerrit, olá, Hilde...
+
+    Romanian Translations:
+    salut
+    salutare
+    bună
+    ziua
+    alo
+
+    Romanian examples:
+    I came by to say hello.:
+    Am avut o pauză de masă și am trecut să te salut.
+
+    Well, hello, professor Culbertson.:
+    Ei bine, salut, profesor universitar Culbertson.
+
+    The boys in the lab say hello... and you're behind in payments.:
+    Băieții din laborator îți transmit salutări și ai întârziat cu plățile.
+
+    Loreen, hello to you on this beautiful day.:
+    Loreen, bună ziua și ție în această minunată zi.
+
+    Here, happiness was as natural as saying hello.:
+    Aici, bucuria era la fel de naturala ca "buna ziua".
+
+    Russian Translations:
+    привет
+    эй
+    приветствие
+    приветик
+    алло
+
+    Russian examples:
+    Why, hello, there, Admiral.:
+    А, Адмирал, привет, что здесь делаешь.
+
+    Tell him Norma Bates said hello.:
+    Скажите ему, что Норма Бейтс передаёт привет.
+
+    Finally got a personalized hello from Earl.:
+    Но наконец-то у меня есть персональное приветствие от Эрла.
+
+    A proper hello from everyone at court but you.:
+    Должное приветствие от всех во дворе, кроме тебя.
+
+    Tell her slipping' Jimmy says hello.:
+    Передай ей, что Скользкий Джимми передает ей привет.
+
+    Turkish Translations:
+    selam
+    efendim
+    merhaba
+    alo
+    merhabalar
+
+    Turkish examples:
+    Say "hello" from Tito Spadola.:
+    Tito Spadola'dan, "selam" söyleyeceğim.
+
+    I'll just say a quick hello to Carol.:
+    Ben de Carol'a hızlıca selam çakayım.
+
+    Goodbye slipstream core, hello plan B.:
+    Hoşçakal ışık hızı alanı çekirdeği, merhaba B planı.
+
+    I haven't even said hello to her yet.:
+    Daha ona bir merhaba bile demedim.
+
+    It's just the way he says hello.:
+    Bu sadece merhaba demenin bir yolu.
+
+  learner_created: true
+- name: translator/hello.txt
+  visible: true
+  text: |+
+    Arabic Translations:
+    مرحبا
+    أهلا
+    الو
+    هل
+    سلام
+
+    Arabic examples:
+    Well, hello, old-school racist.:
+    حسنا، مرحبا يا تلميذة المدرسة العنصريّة - الأمر يسري بدمهم!
+
+    margot, say hello to pavlov.:
+    (مارجوت)،قولي مرحبًا لـ (بافالوف).
+
+    hello hello i m so sorry to hear about vice president mallory:
+    أهلاً أنا آسفة لسماع نبأ وفاة نائب الرئيس
+
+    hello, and welcome to clark after dark.:
+    أهلاً، ومرحباً بكم في "كلارك بعد حلول الظلام"
+
+    Don't even say hello anymore.:
+    لم يعودوا يقولون مرحبًا حتى بعد الآن.
+
+    German Translations:
+    hallo
+    guten
+    Abend
+    guten
+    Morgen
+
+    German examples:
+    Finally got a personalized hello from Earl.:
+    Ich habe endlich ein personifiziertes hallo von Earl bekommen.
+
+    I wanted to... say hello.:
+    Ich war in der Gegend, ich wollte dich... dir hallo sagen.
+
+    Well, hello there again, ladies and gentlemen.:
+    Guten Abend, meine Damen und Herren.
+
+    You could start by calming down and saying hello.:
+    Beruhige dich und sag Guten Morgen.
+
+    Say goodbye to anti-aliasing and hello to naturally crisp graphics.:
+    Verabschiede Dich von Anti-Aliasing und sag Hallo zu natürlich gestochen scharfer Grafik.
+
+    Spanish Translations:
+    hola
+    buenos
+    días
+    qué
+    tal
+
+    Spanish examples:
+    Well, hello, Miss Anchor-liar.:
+    Bien, hola, señorita presentadora de mentiras.
+
+    I guess it's impossible to forget her. Yes, hello.:
+    Imagino que es imposible olvidarla... hola.
+
+    Yes, hello, Mr Teodoresco.:
+    Sí, buenos días, Sr. Teodoresco.
+
+    Dr. Juarez, hello again.:
+    Doctora Juárez, hola de nuevo.
+
+    And all I could say was hello.:
+    Y todo lo que supe decir fue hola.
+
+    French Translations:
+    bonjour
+    allô
+    ohé
+    coucou
+    salut
+
+    French examples:
+    Say goodbye to anti-aliasing and hello to naturally crisp graphics.:
+    Dites adieu à l'anti-crénelage et bonjour à des graphismes naturellement nets.
+
+    Goodbye England and hello the Netherlands...:
+    Au revoir l'Angleterre et bonjour les Pays-Bas...
+
+    Yes, hello. Jackson speaking.:
+    Oui, allô, Jackson à l'appareil.
+
+    And... hello... she's hallucinating dwarves.:
+    Et... allô... elle hallucine de nains.
+
+    And began appearing hello kitty games online.:
+    Et a commencé à apparaître bonjour Kitty jeux en ligne.
+
+    Hebrew Translations:
+    שלום
+    בוקר
+    טוב
+    הלו
+    היי
+
+    Hebrew examples:
+    How come they never say hello?:
+    איך זה שהן אף פעם לא אומרות שלום.
+
+    Say hello to our newest Greendalian,:
+    תגידו שלום, לגרינדלי החדש ביותר שלנו!
+
+    You mean, hello, Tic-Tac.:
+    אתה אומר, הלו, טיק טק.
+
+    Nine months later, hello! Out pops our Julie.:
+    "תשעה חודשים מאוחר יותר,"הלו הגיחה החוצה ג'ולי שלנו?.
+
+    Come and say hello to him.:
+    הנה החבר שלך בוא ואמור לו שלום.
+
+    Japanese Translations:
+    こんにちは
+    hello
+    ハロー
+    みなさん
+    皆さん
+
+    Japanese examples:
+    The little boy said hello to me.:
+    小さな男の子が私にこんにちはと言った。
+
+    To all aspiring pilots, hello!:
+    パイロットを目指しているみんな、こんにちは。
+
+    they both produce: hello world.:
+    すなわち、両方共、hello　worldを出力します。
+
+    The client and server exchange hello messages.:
+    クライアントとサーバがHelloメッセージを交換します。
+
+    The transmitting unit broadcasts the first hello packet.:
+    送信部は、第１のハローパケットをブロードキャスト送信する。
+
+    Dutch Translations:
+    dag
+    begroeting
+    hallo
+    gedag
+    hoi
+
+    Dutch examples:
+    Which in Hawaiian means hello and goodbye.:
+    Dat betekent hallo en tot ziens in het Hawaiiaans.
+
+    "Aloha." It means hello and goodbye.:
+    Aloha betekend hallo en tot ziens.
+
+    Well, hello, I'm Miranda.:
+    Wel, hallo, ik ben Miranda.
+
+    Well, hello there, sweetheart.:
+    Nou, hallo daar, lieveling.
+
+    Well, then, hello there, cadet Terry.:
+    In dat geval: Hallo, cadet Terry.
+
+    Polish Translations:
+    cześć
+    halo
+    powitanie
+    miło
+    witam
+
+    Polish examples:
+    You had me at "hello".:
+    Wystarczyło mi twoje "cześć".
+
+    I told him you'd stop in to say hello before the surgery.:
+    Powiedziałem jego, że zostaniesz by powiedzieć cześć wcześniej chirurgia.
+
+    You didn't even kiss me hello.:
+    Nawet mie nie pocałowałeś na powitanie.
+
+    We'll go in and say hello.:
+    Wejdziemy do środka i powiemy cześć.
+
+    Say hello to the fellas, Lilah.:
+    Powiedz "cześć" kolegom, Lilah.
+
+    Portuguese Translations:
+    olá
+    alô
+    bom
+    dia
+    abraço
+
+    Portuguese examples:
+    That was my last kiss hello.:
+    Pois eu garanto que aquele foi o meu último beijo de olá.
+
+    Say goodbye to civilization and hello to Second Chance.:
+    Digam adeus à civilização, e olá, à Segunda Oportunidade.
+
+    Continue transmitting universal peace and hello in all known languages.:
+    Continue a transmitir paz universal e alô em todos os idiomas conhecidos.
+
+    Well, hello, freedom fighters.:
+    Bem, alô, guerreiros da liberdade.
+
+    Good morning Gerrit, hello Hilde...:
+    Bom dia, Gerrit, olá, Hilde...
+
+    Romanian Translations:
+    salut
+    salutare
+    bună
+    ziua
+    alo
+
+    Romanian examples:
+    I came by to say hello.:
+    Am avut o pauză de masă și am trecut să te salut.
+
+    Well, hello, professor Culbertson.:
+    Ei bine, salut, profesor universitar Culbertson.
+
+    The boys in the lab say hello... and you're behind in payments.:
+    Băieții din laborator îți transmit salutări și ai întârziat cu plățile.
+
+    Loreen, hello to you on this beautiful day.:
+    Loreen, bună ziua și ție în această minunată zi.
+
+    Here, happiness was as natural as saying hello.:
+    Aici, bucuria era la fel de naturala ca "buna ziua".
+
+    Russian Translations:
+    привет
+    эй
+    приветствие
+    приветик
+    алло
+
+    Russian examples:
+    Why, hello, there, Admiral.:
+    А, Адмирал, привет, что здесь делаешь.
+
+    Tell him Norma Bates said hello.:
+    Скажите ему, что Норма Бейтс передаёт привет.
+
+    Finally got a personalized hello from Earl.:
+    Но наконец-то у меня есть персональное приветствие от Эрла.
+
+    A proper hello from everyone at court but you.:
+    Должное приветствие от всех во дворе, кроме тебя.
+
+    Tell her slipping' Jimmy says hello.:
+    Передай ей, что Скользкий Джимми передает ей привет.
+
+    Turkish Translations:
+    selam
+    efendim
+    merhaba
+    alo
+    merhabalar
+
+    Turkish examples:
+    Say "hello" from Tito Spadola.:
+    Tito Spadola'dan, "selam" söyleyeceğim.
+
+    I'll just say a quick hello to Carol.:
+    Ben de Carol'a hızlıca selam çakayım.
+
+    Goodbye slipstream core, hello plan B.:
+    Hoşçakal ışık hızı alanı çekirdeği, merhaba B planı.
+
+    I haven't even said hello to her yet.:
+    Daha ona bir merhaba bile demedim.
+
+    It's just the way he says hello.:
+    Bu sadece merhaba demenin bir yolu.
+
+  learner_created: true
+- name: translator/brrrrrrrrrrr.txt
+  visible: true
+  learner_created: true
+- name: translator/Pipfile.lock
+  visible: true
+  learner_created: true
+- name: translator/Pipfile
+  visible: true
+  learner_created: true
+- name: brrrrrrrrrrr.txt
+  visible: true
+  learner_created: true
+- name: translator/__init__.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/99/stages/549/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/99/stages/549/implement">JetBrains
+    Academy</a>
+  time: Thu, 22 Oct 2020 11:37:27 UTC
 record: -1

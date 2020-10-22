@@ -172,13 +172,10 @@ files:
     حسنا، مرحبا يا تلميذة المدرسة العنصريّة - الأمر يسري بدمهم!
 
   learner_created: true
-- name: translator/__init__.py
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/99/stages/548/implement
 status: Solved
 feedback:
   message: Congratulations! Continue on <a href="https://hyperskill.org/projects/99/stages/548/implement">JetBrains
     Academy</a>
   time: Wed, 21 Oct 2020 15:24:14 UTC
-record: -1
+record: 6
